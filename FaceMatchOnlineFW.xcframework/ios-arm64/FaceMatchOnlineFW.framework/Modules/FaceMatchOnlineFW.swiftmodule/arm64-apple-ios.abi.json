@@ -1,0 +1,1014 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FaceMatchOnlineFW",
+    "printedName": "FaceMatchOnlineFW",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomDataSend",
+        "printedName": "CustomDataSend",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomDataSend",
+                "printedName": "FaceMatchOnlineFW.CustomDataSend",
+                "usr": "s:17FaceMatchOnlineFW14CustomDataSendV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FaceMatchOnlineFW14CustomDataSendVACycfc",
+            "mangledName": "$s17FaceMatchOnlineFW14CustomDataSendVACycfc",
+            "moduleName": "FaceMatchOnlineFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomDataSend",
+                "printedName": "FaceMatchOnlineFW.CustomDataSend",
+                "usr": "s:17FaceMatchOnlineFW14CustomDataSendV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FaceMatchOnlineFW14CustomDataSendV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17FaceMatchOnlineFW14CustomDataSendV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FaceMatchOnlineFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceMatchOnlineFW14CustomDataSendV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17FaceMatchOnlineFW14CustomDataSendV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FaceMatchOnlineFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17FaceMatchOnlineFW14CustomDataSendV",
+        "mangledName": "$s17FaceMatchOnlineFW14CustomDataSendV",
+        "moduleName": "FaceMatchOnlineFW",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "deviceData",
+        "printedName": "deviceData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "deviceData",
+                "printedName": "FaceMatchOnlineFW.deviceData",
+                "usr": "s:17FaceMatchOnlineFW10deviceDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FaceMatchOnlineFW10deviceDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17FaceMatchOnlineFW10deviceDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FaceMatchOnlineFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceMatchOnlineFW10deviceDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17FaceMatchOnlineFW10deviceDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FaceMatchOnlineFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17FaceMatchOnlineFW10deviceDataV",
+        "mangledName": "$s17FaceMatchOnlineFW10deviceDataV",
+        "moduleName": "FaceMatchOnlineFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceMatchOnlineListener",
+        "printedName": "FaceMatchOnlineListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(match:similarity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceMatchOnlineFW0abC8ListenerP9onSuccess5match10similarityySb_SdtF",
+            "mangledName": "$s17FaceMatchOnlineFW0abC8ListenerP9onSuccess5match10similarityySb_SdtF",
+            "moduleName": "FaceMatchOnlineFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchOnlineFW.FaceMatchOnlineListener>",
+            "sugared_genericSig": "<Self where Self : FaceMatchOnlineFW.FaceMatchOnlineListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(status:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceMatchOnlineFW0abC8ListenerP7onError6status11descriptionySi_SStF",
+            "mangledName": "$s17FaceMatchOnlineFW0abC8ListenerP7onError6status11descriptionySi_SStF",
+            "moduleName": "FaceMatchOnlineFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchOnlineFW.FaceMatchOnlineListener>",
+            "sugared_genericSig": "<Self where Self : FaceMatchOnlineFW.FaceMatchOnlineListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17FaceMatchOnlineFW0abC8ListenerP",
+        "mangledName": "$s17FaceMatchOnlineFW0abC8ListenerP",
+        "moduleName": "FaceMatchOnlineFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceMatchOnline",
+        "printedName": "FaceMatchOnline",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "faceMatchOnlineListener",
+            "printedName": "faceMatchOnlineListener",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FaceMatchOnlineFW.FaceMatchOnlineListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceMatchOnlineListener",
+                    "printedName": "any FaceMatchOnlineFW.FaceMatchOnlineListener",
+                    "usr": "s:17FaceMatchOnlineFW0abC8ListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceMatchOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvp",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvp",
+            "moduleName": "FaceMatchOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceMatchOnlineFW.FaceMatchOnlineListener)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceMatchOnlineListener",
+                        "printedName": "any FaceMatchOnlineFW.FaceMatchOnlineListener",
+                        "usr": "s:17FaceMatchOnlineFW0abC8ListenerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvg",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvg",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceMatchOnlineFW.FaceMatchOnlineListener)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceMatchOnlineListener",
+                        "printedName": "any FaceMatchOnlineFW.FaceMatchOnlineListener",
+                        "usr": "s:17FaceMatchOnlineFW0abC8ListenerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvs",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvs",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvM",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvM",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceUrl",
+            "printedName": "serviceUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceMatchOnlineFW0abC0C10serviceUrlSSvp",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C10serviceUrlSSvp",
+            "moduleName": "FaceMatchOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C10serviceUrlSSvg",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C10serviceUrlSSvg",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C10serviceUrlSSvs",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C10serviceUrlSSvs",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C10serviceUrlSSvM",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C10serviceUrlSSvM",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeAccessKey",
+            "printedName": "PersonalCodeAccessKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvp",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvp",
+            "moduleName": "FaceMatchOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvg",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvg",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvs",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvs",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvM",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvM",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeSecretKey",
+            "printedName": "PersonalCodeSecretKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvp",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvp",
+            "moduleName": "FaceMatchOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvg",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvg",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvs",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvs",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvM",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvM",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodePublicKey",
+            "printedName": "PersonalCodePublicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvp",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvp",
+            "moduleName": "FaceMatchOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvg",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvg",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvs",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvs",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvM",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvM",
+                "moduleName": "FaceMatchOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceMatchOnline",
+                "printedName": "FaceMatchOnlineFW.FaceMatchOnline",
+                "usr": "s:17FaceMatchOnlineFW0abC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FaceMatchOnlineFW0abC0CACycfc",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0CACycfc",
+            "moduleName": "FaceMatchOnlineFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "matchFaces",
+            "printedName": "matchFaces(image1:image2:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceMatchOnlineFW0abC0C10matchFaces6image16image2ySo7UIImageC_AHtF",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C10matchFaces6image16image2ySo7UIImageC_AHtF",
+            "moduleName": "FaceMatchOnlineFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17FaceMatchOnlineFW0abC0C",
+        "mangledName": "$s17FaceMatchOnlineFW0abC0C",
+        "moduleName": "FaceMatchOnlineFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "FaceMatchOnlineFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenGenerator",
+        "printedName": "TokenGenerator",
+        "declKind": "Class",
+        "usr": "s:17FaceMatchOnlineFW14TokenGeneratorC",
+        "mangledName": "$s17FaceMatchOnlineFW14TokenGeneratorC",
+        "moduleName": "FaceMatchOnlineFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1255,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1314,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 606,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
+      "kind": "FloatLiteral",
+      "offset": 4968,
+      "length": 4,
+      "value": "0.85"
+    }
+  ]
+}

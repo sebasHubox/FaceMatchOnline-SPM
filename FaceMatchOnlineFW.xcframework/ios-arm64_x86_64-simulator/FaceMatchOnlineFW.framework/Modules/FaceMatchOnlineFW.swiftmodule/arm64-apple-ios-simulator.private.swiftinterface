@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FaceMatchOnlineFW
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import CryptoKit
+import Foundation
+import Photos
+import Security
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct CustomDataSend : Swift.Codable {
+  public init()
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct deviceData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol FaceMatchOnlineListener {
+  func onSuccess(match: Swift.Bool, similarity: Swift.Double)
+  func onError(status: Swift.Int, description: Swift.String)
+}
+public class FaceMatchOnline {
+  public var faceMatchOnlineListener: (any FaceMatchOnlineFW.FaceMatchOnlineListener)?
+  public var serviceUrl: Swift.String
+  public var PersonalCodeAccessKey: Swift.String
+  public var PersonalCodeSecretKey: Swift.String
+  public var PersonalCodePublicKey: Swift.String
+  public init()
+  public func matchFaces(image1: UIKit.UIImage, image2: UIKit.UIImage)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TokenGenerator {
+  @objc deinit
+}
