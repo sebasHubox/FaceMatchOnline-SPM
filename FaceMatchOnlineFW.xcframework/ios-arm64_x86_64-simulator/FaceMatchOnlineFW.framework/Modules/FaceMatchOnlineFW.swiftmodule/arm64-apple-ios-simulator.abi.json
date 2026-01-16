@@ -563,8 +563,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeAccessKey",
-            "printedName": "PersonalCodeAccessKey",
+            "name": "accessKey",
+            "printedName": "accessKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -574,8 +574,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvp",
-            "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvp",
+            "usr": "s:17FaceMatchOnlineFW0abC0C9accessKeySSvp",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C9accessKeySSvp",
             "moduleName": "FaceMatchOnlineFW",
             "declAttributes": [
               "HasInitialValue",
@@ -597,8 +597,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvg",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvg",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9accessKeySSvg",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9accessKeySSvg",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -621,8 +621,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvs",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvs",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9accessKeySSvs",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9accessKeySSvs",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -639,8 +639,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvM",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeAccessKeySSvM",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9accessKeySSvM",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9accessKeySSvM",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -649,8 +649,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeSecretKey",
-            "printedName": "PersonalCodeSecretKey",
+            "name": "secretKey",
+            "printedName": "secretKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -660,8 +660,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvp",
-            "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvp",
+            "usr": "s:17FaceMatchOnlineFW0abC0C9secretKeySSvp",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C9secretKeySSvp",
             "moduleName": "FaceMatchOnlineFW",
             "declAttributes": [
               "HasInitialValue",
@@ -683,8 +683,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvg",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvg",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9secretKeySSvg",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9secretKeySSvg",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -707,8 +707,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvs",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvs",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9secretKeySSvs",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9secretKeySSvs",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -725,8 +725,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvM",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodeSecretKeySSvM",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9secretKeySSvM",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9secretKeySSvM",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -735,8 +735,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodePublicKey",
-            "printedName": "PersonalCodePublicKey",
+            "name": "publicKey",
+            "printedName": "publicKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -746,8 +746,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvp",
-            "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvp",
+            "usr": "s:17FaceMatchOnlineFW0abC0C9publicKeySSvp",
+            "mangledName": "$s17FaceMatchOnlineFW0abC0C9publicKeySSvp",
             "moduleName": "FaceMatchOnlineFW",
             "declAttributes": [
               "HasInitialValue",
@@ -769,8 +769,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvg",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvg",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9publicKeySSvg",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9publicKeySSvg",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -793,8 +793,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvs",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvs",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9publicKeySSvs",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9publicKeySSvs",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -811,8 +811,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvM",
-                "mangledName": "$s17FaceMatchOnlineFW0abC0C21PersonalCodePublicKeySSvM",
+                "usr": "s:17FaceMatchOnlineFW0abC0C9publicKeySSvM",
+                "mangledName": "$s17FaceMatchOnlineFW0abC0C9publicKeySSvM",
                 "moduleName": "FaceMatchOnlineFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -985,30 +985,51 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 594,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 656,
+      "offset": 632,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 706,
+      "offset": 670,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 4968,
+      "offset": 4702,
       "length": 4,
       "value": "0.85"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10180,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/08-Comparación Biométrica Facial\/FaceMatchOnlineFW\/FaceMatchOnlineFW\/FaceMatchOnlineFW.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10204,
+      "length": 1,
+      "value": "0"
     }
   ]
 }
